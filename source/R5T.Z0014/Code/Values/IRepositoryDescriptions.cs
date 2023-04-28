@@ -8,6 +8,9 @@ namespace R5T.Z0014
 	[ValuesMarker]
 	public partial interface IRepositoryDescriptions : IValuesMarker
 	{
-		public string ForTestRepository => "A test repository.";
+        /// <summary>
+        /// A test repository.
+        /// </summary>
+        public string ForTestRepository => "A test repository.";
 	}
 }
